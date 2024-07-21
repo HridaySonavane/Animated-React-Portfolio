@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  * {
+    @apply p-0 m-0 box-border ;
+    
+  }
+  
+  html {
+    @apply snap-y snap-mandatory scroll-auto;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  body {
+    @apply bg-primary text-[#d3d3d3];
+  }
+  
+  section {
+    @apply h-screen snap-center overflow-hidden
+  }
+
+  span {
+    @apply font-bold text-sm
+  }
+
+  .social>a>* {
+    @apply w-[26px] h-[26px] 
+  }
+
+  .links>a {
+    @apply text-[calc(1vw+20px)]
+  }
+
+  .buttons>button {
+    @apply p-5 border border-solid border-white rounded-xl text-white mr-5 cursor-pointer font-light text-sm active:bg-white active:text-black
+  }
+
+  .title {
+    @apply flex items-center gap-[30px]
+  }
+
+  .title>h1 {
+    @apply text-6xl font-thin
+  }
+
+  .title>h1>b {
+    @apply font-semibold cursor-pointer
+  }
+
+  .listContainer>.box {
+    @apply p-6 border border-solid border-[#6e6e6e] flex flex-col justify-between gap-5
+  }
+
+  .listContainer>.box>button {
+    @apply p-[5px] bg-[#FFA500] text-black rounded-md border-none cursor-pointer
+  }
+
+  .listContainer>.box>h2 {
+    @apply text-base leading-5 font-bold
+  }
+
+  .listContainer>.box>p {
+    @apply text-xs leading-4
+  }
+
+  .profileInfoBox>p {
+    text-shadow: 0px 0px 6px currentColor;
+  }
+
+  .textContainer>.item>span {
+    @apply font-light text-[0.7rem]
+  }
+
+  .textContainer>.item>h2 {
+    @apply font-semibold text-base leading-[1rem]
+  }
+
+  .formContainer>form>input,textarea {
+    @apply p-3 bg-transparent border border-white text-white rounded-[5px] text-[0.7rem]
+  }
+  .formContainer>form>button {
+    @apply p-2 bg-[#FFA500] text-[0.7rem] text-black cursor-pointer font-medium rounded-[5px]
+  }
+}
