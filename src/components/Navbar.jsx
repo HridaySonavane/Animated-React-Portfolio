@@ -76,11 +76,12 @@ function Navbar() {
 		<div className="h-[100px]">
 			{/* Sidebar */}
 			<Sidebar />
-			<div className="max-w-5xl m-auto flex items-center justify-between h-full ">
+			<div className="max-w-5xl m-auto flex items-center justify-between h-full mobile:justify-end mobile:p-5 ">
 				<motion.span
 					initial={{ opacity: 0, scale: 0.8 }}
 					animate={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 0.8 }}
+					className="mobile:hidden"
 				>
 					Lama Dev
 				</motion.span>

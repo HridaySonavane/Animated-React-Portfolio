@@ -31,7 +31,7 @@
   }
 
   .links>a {
-    @apply text-[calc(1vw+20px)]
+    @apply text-[calc(1vw+20px)] mobile:text-[40px]
   }
 
   .buttons>button {
@@ -83,5 +83,5 @@
   }
   .formContainer>form>button {
     @apply p-2 bg-[#FFA500] text-[0.7rem] text-black cursor-pointer font-medium rounded-[5px]
-  }
+  } 
 }

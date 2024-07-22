@@ -5,10 +5,12 @@ import Parallax from "./components/Parallax";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Cursor from "./components/Cursor";
 
 function App() {
 	return (
 		<div>
+			<Cursor />
 			<section id="Homepage">
 				<Navbar />
 				<Hero />

@@ -31,7 +31,7 @@ function Links() {
 
 	return (
 		<motion.div
-			className="links absolute h-full w-full flex flex-col justify-center items-center gap-5 z-20"
+			className="links absolute h-full w-full flex flex-col justify-center items-center gap-5 z-20 "
 			variants={variants}
 		>
 			{items.map((item) => (

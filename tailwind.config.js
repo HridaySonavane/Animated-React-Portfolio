@@ -6,6 +6,10 @@ export default {
 			colors: {
 				primary: "#0c0c1d",
 			},
+
+			screens: {
+				mobile: { max: "430px" },
+			},
 		},
 	},
 	plugins: [],
