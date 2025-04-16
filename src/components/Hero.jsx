@@ -100,9 +100,9 @@ function Hero() {
 	const [isTapped, setIsTapped] = useState(false);
 
 	const profileInfo = {
-		name: "Hriday Sonavane",
-		age: 18,
-		prof: "Fullstack Developer",
+		name: "Hriday Sonawane",
+		age: 20,
+		prof: "MERN Stack Developer",
 	};
 
 	return (
@@ -168,7 +168,7 @@ function Hero() {
 				/>
 
 				<motion.div
-					className="profileInfoBox absolute m-auto w-[calc(100%-280px)] h-[calc(100%-360px)] bg-black/70 backdrop-blur-xl border border-[#CCCCCC] rounded-lg flex flex-col gap-0 justify-evenly py-2 ps-2 text-sm font-semibold font-mono leading-3 z-30 overflow-hidden"
+					className="profileInfoBox absolute m-auto w-[calc(100%-250px)] h-[calc(100%-420px)] bg-black/70 backdrop-blur-xl border border-[#CCCCCC] rounded-lg flex flex-col gap-0 justify-evenly py-2 px-2 text-sm font-semibold font-mono leading-3 z-30 overflow-hidden"
 					variants={profileBoxVariant}
 					initial="profExit"
 					// whileTap={"animate"}
