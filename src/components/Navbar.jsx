@@ -18,7 +18,7 @@ const variant = {
 		opacity: 1,
 		transition: {
 			duration: 0.8,
-			staggerChildren: 0.05,
+			staggerChildren: 0.5,
 			staggerDirection: -1,
 			type: "spring",
 			mass: 3,
@@ -83,7 +83,7 @@ function Navbar() {
 					transition={{ duration: 0.8 }}
 					className="mobile:hidden"
 				>
-					Lama Dev
+					PORTFOLIO
 				</motion.span>
 				<motion.div
 					className="social flex gap-5"

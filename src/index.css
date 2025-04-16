@@ -10,7 +10,7 @@
   }
   
   html {
-    @apply snap-y snap-mandatory scroll-auto;
+    @apply snap-y snap-normal scroll-auto;
     font-family: "DM Sans", sans-serif;
   }
 

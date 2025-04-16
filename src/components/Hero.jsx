@@ -115,7 +115,7 @@ function Hero() {
 					className="textContainer w-1/2 h-full flex flex-col justify-center gap-10 z-10"
 				>
 					<motion.h2 className="text-2xl text-[#663399] font-bold tracking-[8px] leading-3 z-10">
-						HARVEY TYLER
+						HRIDAY SONAWANE
 					</motion.h2>
 					<motion.h1
 						variants={textVariant}
